@@ -1,0 +1,103 @@
+a {
+  text-decoration: none; }
+
+.header {
+  width: 100%;
+  height: 800px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.headline {
+  width: 100%;
+  height: 12.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid gray;
+  color: #F8565D;
+  font-size: 1.1vw; }
+
+.nav_icons_container {
+  width: 100%;
+  height: 7.5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 0.2%; }
+
+.navigation {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.navlinks {
+  width: 50%;
+  height: 100%;
+  margin-left: 20%; }
+
+.navlinks li {
+  display: inline-block;
+  margin-left: 4%;
+  font-size: 1vw; }
+
+.navlinks li a:hover {
+  color: #F8565D;
+  -webkit-transition: 0.8s;
+  transition: 0.8s; }
+
+.icons {
+  width: 50%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.headpicture {
+  width: 100%;
+  height: 75%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/headbike.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 40%; }
